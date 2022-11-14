@@ -70,9 +70,8 @@ console.log('Sorted List of numbers: ')
 // the elements in the array.
 // https://stackoverflow.com/questions/56262258/how-to-print-array-elements
 for (let counter = 0; counter < numArray.length; counter++) {
-          process.stdout.write(`${String(numArray[counter])},`) 
+  process.stdout.write(`${String(numArray[counter])},`)
 }
-
 
 // asks for the user input
 console.log('')
